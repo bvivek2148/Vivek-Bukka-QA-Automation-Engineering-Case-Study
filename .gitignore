@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Pytest & Playwright
+.pytest_cache/
+test-results/
+playwright-report/
+blob-report/
+.playwright-artifacts-*/
+
+# Reports & Screenshots
+reports/*.html
+reports/assets/
+*.png
+*.jpeg
+*.log
+
+# Environment & Secrets
+.env
+.env.local
+*.pem
+
+# IDEs
+.vscode/
+.idea/
+*.swp

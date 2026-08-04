@@ -1,0 +1,22 @@
+default_environment: staging
+
+environments:
+  staging:
+    base_domain: "workflowpro.com"
+    api_url: "https://api.staging.workflowpro.com/v1"
+    tenants:
+      company1:
+        tenant_id: "tenant-company1-uuid-101"
+        url: "https://company1.staging.workflowpro.com"
+        admin_user: "admin@company1.com"
+        admin_pass: "password123"
+      company2:
+        tenant_id: "tenant-company2-uuid-202"
+        url: "https://company2.staging.workflowpro.com"
+        admin_user: "user@company2.com"
+        admin_pass: "password123"
+
+browserstack:
+  project_name: "WorkFlow Pro B2B SaaS Automation"
+  build_name: "Bynry-QA-Case-Study-Build"
+  default_device: "iPhone 14"
